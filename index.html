@@ -7,28 +7,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
-    <main>
+    <main class="relative">
+        <div class="pointer-events-none hidden md:block">
+            <img src="decoration/stickers1.png" alt="" class="absolute top-0 right-0 w-40 h-40 md:w-56 md:h-56 object-contain scale-[1.152] origin-top-right">
+        </div>
     
     <!-- Header Section -->
     <header class="bg-white shadow-md">
         <div class="container mx-auto px-4 py-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6">
                 <!-- Nom et Prénom -->
-                <div class="text-center md:text-left">
-                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Elisabeth Robl</h1>
-                    <p class="text-xl text-gray-600 mt-2">Développeuse IOT et mobile</p>
+                <div class="text-center md:flex md:items-center md:gap-4">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Elisabeth Robl</h1>
+                        <p class="text-xl text-gray-600 mt-2">Développeuse IOT et mobile</p>
+                    </div>
+                    <img src="decoration/stickers2.png" alt="" class="hidden md:block w-36 h-36 object-contain">
                 </div>
                 
                 <!-- Photo -->
-                <div class="flex-shrink-0">
+                <div class="flex-shrink-0 relative w-40 h-40 md:w-48 md:h-48">
                     <img src="images/photo-profil.jpg" alt="Photo de profil" 
-                         class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-black shadow-lg">
+                         class="relative z-10 w-full h-full rounded-full object-cover border-4 border-black shadow-lg">
                 </div>
             </div>
             
             <!-- Description -->
-            <div class="mt-8">
-                <p class="text-lg text-gray-700 leading-relaxed max-w-3xl">
+            <div class="mt-8 flex justify-center">
+                <p class="text-lg text-gray-700 leading-relaxed max-w-3xl text-center">
                     Actuellement en deuxième année de Bachelor Informatique dans le but de me former aux métiers du développement,
                     je suis activement à la recherche d’un stage d’un mois pour 2025/2026 ainsi que d’une alternance pour 2026/2027.
                     Bonne maîtrise de l'anglais : je suis capable de comprendre et de m'exprimer lors d’une conversation.
@@ -38,7 +44,7 @@
     </header>
 
     <!-- Expériences Professionnelles -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-gray-50 relative">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-10 text-center">
                 Expérience Professionnelle
@@ -129,13 +135,13 @@
     </section>
 
     <!-- Projets -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-gray-50 relative">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-10 text-center">
                 Projets Pédagogiques Réalisés
             </h2>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto relative z-10">
                 <!-- Projet 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                     <div class="image-projet overflow-hidden">
@@ -240,6 +246,8 @@
                 </div>
             </div>
         </div>
+        <img src="decoration/stickers3.png" alt="" class="pointer-events-none absolute -bottom-6 left-0 w-44 h-44 md:w-64 md:h-64 object-contain z-0">
+        <img src="decoration/stickers4.png" alt="" class="pointer-events-none absolute -bottom-6 right-0 w-44 h-44 md:w-64 md:h-64 object-contain z-0">
     </section>
 
     <!-- Footer avec Contacts -->
@@ -311,5 +319,3 @@
         </div>
     </footer>
     </main>
-</body>
-</html>
