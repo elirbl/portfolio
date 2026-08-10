@@ -24,21 +24,14 @@ Portfolio-responsive/
 │
 ├── index.html          # Page principale du portfolio
 ├── images/             # Dossier contenant toutes les images
-│   ├── photo-profil.jpg
-│   ├── logo-bartale2.jpg
-│   ├── hangman.jpg
-│   ├── jeu-de-survie.jpg
-│   ├── escape-game.png
-│   ├── logo-moka.jpg
-│   └── logo-asteria.jpg
-└── README.md          # Ce fichier
+└── README.md           # Ce fichier
 ```
 
 ## 🚀 Installation et utilisation
 
 1. Cloner le dépôt :
 ```bash
-git clone https://github.com/elirbl/Portfolio-responsive.git
+git clone https://github.com/elirbl/portfolio.git
 ```
 
 2. Ouvrir le fichier `index.html` dans un navigateur web
