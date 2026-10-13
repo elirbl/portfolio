@@ -10,6 +10,8 @@ Site web portfolio responsive présentant :
 - Mes expériences professionnelles
 - Mon rapport de stage de deuxième année
 - Mon parcours de formation
+- Les langages de programmation et logiciels que je maîtrise
+- Mes soft skills
 - Mes projets pédagogiques réalisés
 - Mes coordonnées de contact
 
@@ -57,4 +59,5 @@ Le site s'adapte automatiquement à différentes tailles d'écran :
 
 ## Licence
 
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 © 2026 Elisabeth Robl. Tous droits réservés.
